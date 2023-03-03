@@ -69,7 +69,6 @@ public class Main {
     }
 
 
-
     public static void task4 () {
         System.out.println("Задача 4");
         int[] number = new int[3];
@@ -112,4 +111,5 @@ public class Main {
         }
         System.out.println(Arrays.toString(tap));
 
-}}
+}
+}
