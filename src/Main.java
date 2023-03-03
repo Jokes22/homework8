@@ -78,35 +78,38 @@ public class Main {
         number[2] = 3;
         int i;
         for (i = 0; i < 3; i++) {
-            number[i] = number[i] + 1;
-            System.out.print(number[i] + " ");
+           if (number[i]% 2 != 0){
+               number[i] +=1;
+           }
         }
+        System.out.println(Arrays.toString(number));
 
 
 
 
 
-        System.out.println();
         double[] drop = new double[3];
         drop[0] = 1.57;
         drop[1] = 7.654;
         drop[2] = 9.986;
         int a;
         for (a = 0; a < drop.length; a++) {
-            drop[a] = drop[a] + 1;
-            System.out.print(drop[a] + " ");
-        }
+            if (drop[a] % 2 != 0) {
+                drop[a] += 1;
+
+            }}
+            System.out.println(Arrays.toString(drop));
 
 
-        System.out.println();
 
         int[] tap = {21, 43};
         int s;
         for (s = 0; s < tap.length; s++) {
-            tap[s] = tap[s] + 1;
-            System.out.print(tap[s] + " ");
+            if (tap[s] % 2 != 0) {
+                tap[s] += 1;
 
-    }
-
+            }
+        }
+        System.out.println(Arrays.toString(tap));
 
 }}
